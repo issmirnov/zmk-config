@@ -1,0 +1,303 @@
+layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layers:
+  QWERTY:
+  - ''
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - ''
+  - '&caps_word'
+  - {t: A, h: LEFT GUI}
+  - {t: S, h: LALT}
+  - {t: D, h: LCTRL}
+  - {t: F, h: LSHFT}
+  - G
+  - H
+  - {t: J, h: LSHFT}
+  - {t: K, h: LCTRL}
+  - {t: L, h: LEFT ALT}
+  - {t: /, h: LCMD}
+  - Gui+ SPACE
+  - ''
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - '?'
+  - ''
+  - {t: ESCAPE, h: MEDIA}
+  - {t: SPACE, h: SYMR}
+  - {t: BACKSPACE, h: NUMBER}
+  - {t: TAB, h: NAVI}
+  - {t: ENTER, h: SYML}
+  - {t: DEL, h: FUNC}
+  NUMBER:
+  - ''
+  - ':'
+  - /
+  - ','
+  - .
+  - '*'
+  - ','
+  - '7'
+  - '8'
+  - '9'
+  - '='
+  - ''
+  - ''
+  - LGUI
+  - LALT
+  - LCTRL
+  - LSHFT
+  - ''
+  - '0'
+  - '4'
+  - '5'
+  - '6'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Gui+ LSHFT
+  - ''
+  - .
+  - '1'
+  - '2'
+  - '3'
+  - ''
+  - ''
+  - ESCAPE
+  - SPACE
+  - {t: BACKSPACE, type: held}
+  - TAB
+  - ENTER
+  - DEL
+  NAVI:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - CAPSLOCK
+  - PASTE
+  - UP ARROW
+  - CUT
+  - UNDO
+  - ''
+  - ''
+  - LGUI
+  - LALT
+  - LCTRL
+  - LSHFT
+  - ''
+  - INS
+  - LEFT
+  - DOWN
+  - RIGHT
+  - COPY
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&mkp MB4'
+  - '&mkp LCLK'
+  - '&mkp MB3'
+  - '&mkp RCLK'
+  - ''
+  - ''
+  - ESCAPE
+  - SPACE
+  - BACKSPACE
+  - {t: TAB, type: held}
+  - ENTER
+  - DEL
+  SYMR:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '*'
+  - '!'
+  - '|'
+  - '%'
+  - +
+  - ''
+  - ''
+  - LGUI
+  - LALT
+  - LCTRL
+  - LSHFT
+  - ''
+  - '#'
+  - KP EQUAL
+  - ':'
+  - ;
+  - ''''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&'
+  - '?'
+  - /
+  - \
+  - '"'
+  - ''
+  - ESCAPE
+  - {t: SPACE, type: held}
+  - BACKSPACE
+  - TAB
+  - ENTER
+  - DEL
+  SYML:
+  - ''
+  - '-'
+  - '@'
+  - '{'
+  - '}'
+  - '`'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ^
+  - _
+  - (
+  - )
+  - $
+  - ''
+  - LSHFT
+  - LCTRL
+  - LALT
+  - LGUI
+  - ''
+  - ''
+  - <
+  - '>'
+  - '['
+  - ']'
+  - '~'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ESCAPE
+  - SPACE
+  - BACKSPACE
+  - TAB
+  - {t: ENTER, type: held}
+  - DEL
+  MEDIA:
+  - ''
+  - ''
+  - PAUSE
+  - PLAY
+  - STOP
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - PREV
+  - VOL DN
+  - VOL UP
+  - NEXT
+  - ''
+  - ''
+  - LSHFT
+  - LCTRL
+  - LALT
+  - LGUI
+  - ''
+  - ''
+  - END
+  - PG UP
+  - PAGE DOWN
+  - HOME
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ESCAPE, type: held}
+  - SPACE
+  - BACKSPACE
+  - TAB
+  - ENTER
+  - DEL
+  FUNC:
+  - ''
+  - F12
+  - F7
+  - F8
+  - F9
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - F11
+  - F4
+  - F5
+  - F6
+  - ''
+  - ''
+  - LSHFT
+  - LCTRL
+  - LALT
+  - LGUI
+  - ''
+  - ''
+  - F10
+  - F1
+  - F2
+  - F3
+  - ''
+  - BT CLR
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - ESCAPE
+  - SPACE
+  - BACKSPACE
+  - TAB
+  - ENTER
+  - {t: DEL, type: held}
