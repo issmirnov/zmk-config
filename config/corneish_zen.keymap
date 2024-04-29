@@ -55,10 +55,10 @@
         SYMR {
             display-name = "SYMR";
             bindings = <
-&none  &none     &none     &none       &none      &none            &kp      &kp        &kp      &kp  &kp  &none
-&none  &kp LGUI  &kp LALT  &kp LCTRL   &kp LSHFT  &none            &kp      &kp        &kp      &kp  &kp  &none
-&none  &none     &none     &none       &none      &none            &kp      &kp        &kp      &kp  &kp  &none
-                           &kp ESCAPE  &kp SPACE  &kp BACKSPACE    &kp TAB  &kp ENTER  &kp DEL
+&none  &none     &none     &none       &none      &none            &kp STAR  &kp EXCL      &kp PIPE   &kp PERCENT    &kp PLUS           &none
+&none  &kp LGUI  &kp LALT  &kp LCTRL   &kp LSHFT  &none            &kp HASH  &kp KP_EQUAL  &kp COLON  &kp SEMICOLON  &kp APOS           &none
+&none  &none     &none     &none       &none      &none            &kp AMPS  &kp QUESTION  &kp SLASH  &kp BACKSLASH  &kp DOUBLE_QUOTES  &none
+                           &kp ESCAPE  &kp SPACE  &kp BACKSPACE    &kp TAB   &kp ENTER     &kp DEL
             >;
         };
 
