@@ -64,19 +64,19 @@
 
         SYML {
             bindings = <
-&none  &kp MINUS  &kp AT          &kp LEFT_BRACE        &kp RIGHT_BRACE  &kp GRAVE        &none    &none      &none      &none     &none     &none
-&none  &kp CARET  &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp              &kp              &none    &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &none
-&none  &kp        &kp             &kp                   &kp              &kp              &none    &none      &none      &none     &none     &none
-                                  &kp ESCAPE            &kp SPACE        &kp BACKSPACE    &kp TAB  &kp ENTER  &kp DEL
+&none  &kp MINUS      &kp AT            &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE        &none    &none      &none      &none     &none     &none
+&none  &kp CARET      &kp UNDERSCORE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR       &none    &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &none
+&none  &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp TILDE        &none    &none      &none      &none     &none     &none
+                                        &kp ESCAPE            &kp SPACE              &kp BACKSPACE    &kp TAB  &kp ENTER  &kp DEL
             >;
         };
 
         MEDIA {
             bindings = <
-&none  &kp  &kp  &kp         &kp        &kp              &none    &none      &none      &none     &none     &none
-&none  &kp  &kp  &kp         &kp        &kp              &none    &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &none
-&none  &kp  &kp  &kp         &kp        &kp              &none    &none      &none      &none     &none     &none
-                 &kp ESCAPE  &kp SPACE  &kp BACKSPACE    &kp TAB  &kp ENTER  &kp DEL
+&none  &none       &kp C_PAUSE   &kp C_PLAY     &kp C_STOP  &none            &none    &none      &none      &none     &none     &none
+&none  &kp C_PREV  &kp C_VOL_DN  &kp C_VOL_UP   &kp C_NEXT  &none            &none    &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &none
+&none  &kp END     &kp PG_UP     &kp PAGE_DOWN  &kp HOME    &none            &none    &none      &none      &none     &none     &none
+                                 &kp ESCAPE     &kp SPACE   &kp BACKSPACE    &kp TAB  &kp ENTER  &kp DEL
             >;
         };
 
