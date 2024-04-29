@@ -40,10 +40,11 @@
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp N0      &kp N4  &kp N5    &kp N6  &none  &none
 &kp LSHFT   &trans        &trans        &trans        &trans        &trans          &kp DOT    &kp N1    &kp N2     &kp N3     &none  &trans
                         &kp ESCAPE  &kp SPACE  &kp BACKSPACE    &kp TAB  &kp ENTER  &kp DEL
+            >;
         };
 
         NAV {
-            display-name = "SYMBOL";
+            display-name = "NAVI";
 
             bindings = <
 &kp TAB    &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
@@ -54,6 +55,8 @@
         };
 
         SYMR {
+            display-name = "SYMR";
+
             bindings = <
 &none  &none  &none  &none  &none  &none    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
