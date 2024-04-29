@@ -44,9 +44,9 @@
         NAV {
             display-name = "NAVI";
             bindings = <
-&none  &none     &none     &none       &none      &none            &kp CAPSLOCK  &kp K_PASTE  &none    &none  &none  &none
-&none  &kp LGUI  &kp LALT  &kp LCTRL   &kp LSHFT  &none            &none         &none        &none    &none  &none  &none
-&none  &none     &none     &none       &none      &none            &none         &none        &none    &none  &none  &none
+&none  &none     &none     &none       &none      &none            &kp CAPSLOCK  &kp K_PASTE    &kp    &kp      &kp   &kp
+&none  &kp LGUI  &kp LALT  &kp LCTRL   &kp LSHFT  &none            &kp    &kp      &kp    &kp    &kp      &kp
+&none  &none     &none     &none       &none      &none            &kp    &kp      &kp    &kp    &kp      &kp
                            &kp ESCAPE  &kp SPACE  &kp BACKSPACE    &kp TAB       &kp ENTER    &kp DEL
             >;
         };
@@ -54,27 +54,27 @@
         SYMR {
             display-name = "SYMR";
             bindings = <
-&none  &none     &none     &none       &none      &none            &none    &none      &none    &none  &none  &none
-&none  &kp LGUI  &kp LALT  &kp LCTRL   &kp LSHFT  &none            &none    &none      &none    &none  &none  &none
-&none  &none     &none     &none       &none      &none            &none    &none      &none    &none  &none  &none
+&none  &none     &none     &none       &none      &none            &kp    &kp      &kp    &kp    &kp      &none
+&none  &kp LGUI  &kp LALT  &kp LCTRL   &kp LSHFT  &none            &kp    &kp      &kp    &kp    &kp      &none
+&none  &none     &none     &none       &none      &none            &kp    &kp      &kp    &kp    &kp      &none
                            &kp ESCAPE  &kp SPACE  &kp BACKSPACE    &kp TAB  &kp ENTER  &kp DEL
             >;
         };
 
         SYML {
             bindings = <
-&none  &none  &none  &none       &none      &none            &none    &none      &none      &none     &none     &none
-&none  &none  &none  &none       &none      &none            &none    &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &none
-&none  &none  &none  &none       &none      &none            &none    &none      &none      &none     &none     &none
+&none    &kp      &kp    &kp    &kp      &kp            &none    &none      &none      &none     &none     &none
+&none    &kp      &kp    &kp    &kp      &kp           &none    &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &none
+&none    &kp      &kp    &kp    &kp      &kp           &none    &none      &none      &none     &none     &none
                      &kp ESCAPE  &kp SPACE  &kp BACKSPACE    &kp TAB  &kp ENTER  &kp DEL
             >;
         };
 
         MEDIA {
             bindings = <
-&none  &none  &none  &none       &none      &none            &none    &none      &none      &none     &none     &none
-&none  &none  &none  &none       &none      &none            &none    &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &none
-&none  &none  &none  &none       &none      &none            &none    &none      &none      &none     &none     &none
+&none    &kp      &kp    &kp    &kp      &kp            &none    &none      &none      &none     &none     &none
+&none    &kp      &kp    &kp    &kp      &kp            &none    &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &none
+&none    &kp      &kp    &kp    &kp      &kp            &none    &none      &none      &none     &none     &none
                      &kp ESCAPE  &kp SPACE  &kp BACKSPACE    &kp TAB  &kp ENTER  &kp DEL
             >;
         };
