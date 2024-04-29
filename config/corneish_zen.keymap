@@ -64,10 +64,10 @@
 
         SYML {
             bindings = <
-&none  &kp  &kp  &kp         &kp        &kp              &none    &none      &none      &none     &none     &none
-&none  &kp  &kp  &kp         &kp        &kp              &none    &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &none
-&none  &kp  &kp  &kp         &kp        &kp              &none    &none      &none      &none     &none     &none
-                 &kp ESCAPE  &kp SPACE  &kp BACKSPACE    &kp TAB  &kp ENTER  &kp DEL
+&none  &kp MINUS  &kp AT          &kp LEFT_BRACE        &kp RIGHT_BRACE  &kp GRAVE        &none    &none      &none      &none     &none     &none
+&none  &kp CARET  &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp              &kp              &none    &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &none
+&none  &kp        &kp             &kp                   &kp              &kp              &none    &none      &none      &none     &none     &none
+                                  &kp ESCAPE            &kp SPACE        &kp BACKSPACE    &kp TAB  &kp ENTER  &kp DEL
             >;
         };
 
