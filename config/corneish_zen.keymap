@@ -18,6 +18,11 @@
     };
 };
 
+&mt {
+    // Shorten typing term to keep up with my speed
+    tapping-term-ms = <150>;
+};
+
 / {
     keymap {
         compatible = "zmk,keymap";

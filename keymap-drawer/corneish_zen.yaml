@@ -1,7 +1,4 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
-draw_config:
-  # glyph_tap_size: 18
-  dark_mode: auto
 layers:
   QWERTY:
   - ''
