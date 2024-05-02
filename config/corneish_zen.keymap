@@ -20,7 +20,14 @@
 
 &mt {
     // Shorten typing term to keep up with my speed
-    tapping-term-ms = <100>;
+    tapping-term-ms = <150>;
+
+    // If retro-tap is enabled, the tap behavior is triggered 
+    // when releasing the hold-tap key if no other key was pressed in the meantime.
+    retro-tap;
+
+    // set hold-tap flavor to make home row mods work properly.
+    flavor = "tap-preferred";
 };
 
 / {
