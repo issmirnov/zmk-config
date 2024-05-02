@@ -18,5 +18,6 @@
 #
 ---
 include:
-  - board: corneish_zen_v2_left
-  - board: corneish_zen_v2_right
+# when using zmk, use v2. when using casey, use v1.
+  - board: corneish_zen_v1_left
+  - board: corneish_zen_v1_right
