@@ -18,6 +18,7 @@
 #
 ---
 include:
-# when using zmk, use v2. when using casey, use v1.
-  - board: corneish_zen_v1_left
-  - board: corneish_zen_v1_right
+# when using zmk, use v2. when using casey, use v2 as well
+# we have the R3 replacment PCB's now installed.
+  - board: corneish_zen_v2_left
+  - board: corneish_zen_v2_right
