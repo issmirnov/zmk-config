@@ -20,13 +20,16 @@
 
 &mt {
     // Shorten typing term to keep up with my speed
+
     tapping-term-ms = <150>;
 
     // If retro-tap is enabled, the tap behavior is triggered 
     // when releasing the hold-tap key if no other key was pressed in the meantime.
+
     retro-tap;
 
     // set hold-tap flavor to make home row mods work properly.
+
     flavor = "tap-preferred";
 };
 
@@ -34,7 +37,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        QWERTY {    
+        QWERTY {
             label = "QWERTY";
             display-name = "QWERTY";
             bindings = <
@@ -60,10 +63,10 @@
             label = "NAVI";
             display-name = "NAVI";
             bindings = <
-&none  &none     &none     &none       &none      &none            &kp CAPSLOCK  &kp K_PASTE  &kp UP_ARROW  &kp K_CUT  &kp K_UNDO  &none
-&none  &kp LGUI  &kp LALT  &kp LCTRL   &kp LSHFT  &none            &kp INS       &kp LEFT     &kp DOWN      &kp RIGHT  &kp K_COPY  &none
-&none  &none     &none     &none       &none      &none            &mkp MB4      &mkp LCLK    &mkp MB3      &mkp RCLK  &none       &none
-                           &kp ESCAPE  &kp SPACE  &kp BACKSPACE    &kp TAB       &kp ENTER    &kp DEL
+&none  &none     &none     &none       &none             &none            &kp CAPSLOCK  &kp K_PASTE  &kp UP_ARROW  &kp K_CUT  &kp K_UNDO  &none
+&none  &kp LGUI  &kp LALT  &kp LCTRL   &kp LSHFT         &none            &kp INS       &kp LEFT     &kp DOWN      &kp RIGHT  &kp K_COPY  &none
+&none  &none     &none     &none       &kp LS(LEFT_GUI)  &none            &mkp MB4      &mkp LCLK    &mkp MB3      &mkp RCLK  &none       &none
+                           &kp ESCAPE  &kp SPACE         &kp BACKSPACE    &kp TAB       &kp ENTER    &kp DEL
             >;
         };
 
