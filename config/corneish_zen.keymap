@@ -41,9 +41,9 @@
             label = "QWERTY";
             display-name = "QWERTY";
             bindings = <
-&none       &kp Q           &kp W       &kp E         &kp R        &kp T              &kp Y      &kp U        &kp I        &kp O           &kp P           &none
+&kp ESCAPE  &kp Q           &kp W       &kp E         &kp R        &kp T              &kp Y      &kp U        &kp I        &kp O           &kp P           &kp PRINTSCREEN
 &caps_word  &mt LEFT_GUI A  &mt LALT S  &mt LCTRL D   &mt LSHFT F  &kp G              &kp H      &mt LSHFT J  &mt LCTRL K  &mt LEFT_ALT L  &mt LCMD SLASH  &kp LG(SPACE)
-&none       &kp Z           &kp X       &kp C         &kp V        &kp B              &kp N      &kp M        &kp DOT      &kp COMMA       &kp QUESTION    &none
+&kp ESCAPE  &kp Z           &kp X       &kp C         &kp V        &kp B              &kp N      &kp M        &kp DOT      &kp COMMA       &kp QUESTION    &none
                                         &lt 5 ESCAPE  &lt 3 SPACE  &lt 1 BACKSPACE    &lt 2 TAB  &lt 4 ENTER  &lt 6 DEL
             >;
         };

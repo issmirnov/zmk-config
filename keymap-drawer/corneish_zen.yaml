@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
   QWERTY:
-  - ''
+  - ESCAPE
   - Q
   - W
   - E
@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - ''
+  - PRINTSCREEN
   - '&caps_word'
   - {t: A, h: LEFT GUI}
   - {t: S, h: LALT}
@@ -25,7 +25,7 @@ layers:
   - {t: L, h: LEFT ALT}
   - {t: /, h: LCMD}
   - Gui+ SPACE
-  - ''
+  - ESCAPE
   - Z
   - X
   - C
