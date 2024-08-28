@@ -36,7 +36,7 @@ layers:
   - .
   - ','
   - '?'
-  - ''
+  - {t: GAME, h: toggle}
   - {t: ESCAPE, h: MEDIA}
   - {t: SPACE, h: SYMR}
   - {t: BACKSPACE, h: NUMBER}
@@ -301,3 +301,46 @@ layers:
   - TAB
   - ENTER
   - {t: DEL, type: held}
+  GAME:
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - ESCAPE
+  - LEFT SHIFT
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - /
+  - ''
+  - LEFT CONTROL
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - .
+  - ','
+  - Sft+ ?
+  - ''
+  - ESC
+  - SPACE
+  - BSPC
+  - TAB
+  - RET
+  - {t: QWERTY, h: toggle}
