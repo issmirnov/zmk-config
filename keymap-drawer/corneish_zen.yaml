@@ -1,4 +1,4 @@
-layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
   QWERTY:
   - ESCAPE
@@ -337,10 +337,10 @@ layers:
   - .
   - ','
   - Sft+ ?
-  - ''
+  - {t: QWERTY, h: toggle}
   - ESC
   - SPACE
-  - BSPC
+  - {t: BACKSPACE, h: NUMBER}
   - TAB
   - RET
-  - {t: QWERTY, h: toggle}
+  - ''

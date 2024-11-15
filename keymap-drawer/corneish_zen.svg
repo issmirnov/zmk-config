@@ -581,8 +581,7 @@ path.combo {
 <g transform="translate(252, 147)" class="key keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em">Sft+</tspan><tspan x="0" dy="1.2em">LEFT</tspan>
-<tspan x="0" dy="1.2em">GUI</tspan>
+<tspan x="0" dy="-1.2em">Sft+</tspan><tspan x="0" dy="1.2em">LEFT</tspan><tspan x="0" dy="1.2em">GUI</tspan>
 </text>
 </g>
 <g transform="translate(308, 154)" class="key ghost keypos-29">
@@ -1437,6 +1436,9 @@ path.combo {
 </g>
 <g transform="translate(812, 161)" class="key ghost keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key ghost"/>
+<a href="#QWERTY">
+<text x="0" y="0" class="key ghost tap layer-activator">QWERTY</text>
+</a><text x="0" y="24" class="key ghost hold">toggle</text>
 </g>
 <g transform="translate(224, 205)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1448,8 +1450,10 @@ path.combo {
 </g>
 <g transform="translate(351, 224) rotate(30.0)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
-<text x="0" y="0" class="key tap">BSPC</text>
-</g>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
+<a href="#NUMBER">
+<text x="0" y="38" class="key hold layer-activator">NUMBER</text>
+</a></g>
 <g transform="translate(489, 224) rotate(-30.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
 <text x="0" y="0" class="key tap">TAB</text>
@@ -1460,9 +1464,6 @@ path.combo {
 </g>
 <g transform="translate(616, 205)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#QWERTY">
-<text x="0" y="0" class="key tap layer-activator">QWERTY</text>
-</a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 </g>
 </g>
