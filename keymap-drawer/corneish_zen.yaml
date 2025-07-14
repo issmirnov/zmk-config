@@ -1,4 +1,4 @@
-layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
+layout: {zmk_keyboard: corneish_zen, layout_name: default_transform}
 layers:
   QWERTY:
   - ESCAPE
@@ -24,7 +24,7 @@ layers:
   - {t: K, h: LCTRL}
   - {t: L, h: LEFT ALT}
   - {t: /, h: LCMD}
-  - Gui+ SPACE
+  - Gui+SPACE
   - ESCAPE
   - Z
   - X
@@ -36,7 +36,7 @@ layers:
   - .
   - ','
   - '?'
-  - {t: GAME, h: toggle}
+  - ':'
   - {t: ESCAPE, h: MEDIA}
   - {t: SPACE, h: SYMR}
   - {t: BACKSPACE, h: NUMBER}
@@ -72,14 +72,14 @@ layers:
   - ''
   - ''
   - ''
-  - Gui+ LSHFT
+  - Gui+LSHFT
   - ''
   - .
   - '1'
   - '2'
   - '3'
   - ''
-  - ''
+  - {t: GAME, h: toggle}
   - ESCAPE
   - SPACE
   - {t: BACKSPACE, type: held}
@@ -115,7 +115,7 @@ layers:
   - ''
   - ''
   - ''
-  - Sft+ LEFT GUI
+  - Sft+LEFT GUI
   - ''
   - '&mkp MB4'
   - '&mkp LCLK'
@@ -336,7 +336,7 @@ layers:
   - M
   - .
   - ','
-  - Sft+ ?
+  - Sft+?
   - {t: QWERTY, h: toggle}
   - ESC
   - SPACE
