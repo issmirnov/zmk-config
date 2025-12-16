@@ -18,7 +18,7 @@
 #
 ---
 include:
-# v0.3.0 uses legacy board naming
-# we have the R3 replacement PCB's now installed.
-  - board: corneish_zen_v2_left
-  - board: corneish_zen_v2_right
+# Zephyr 4.1 uses new board naming with revisions
+# we have the R3 replacement PCB's now installed (v2.0.0)
+  - board: corneish_zen_left
+  - board: corneish_zen_right
