@@ -22,7 +22,7 @@
 // Custom hold-tap behavior for home row mods with positional settings
 &mt {
     // Faster tapping term for responsive typing
-    tapping-term-ms = <200>;
+    tapping-term-ms = <150>;
 
     // Quick-tap prevents accidental holds during fast typing
     // Requires 125ms idle time before hold can trigger
