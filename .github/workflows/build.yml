@@ -3,4 +3,4 @@ on: [push, pull_request, workflow_dispatch]
 name: Build ZMK Firmware
 jobs:
   build:
-    uses: SethMilliken/zmk/.github/workflows/build-user-config.yml@zen-display-patches
+    uses: issmirnov/zmk/.github/workflows/build-user-config.yml@fix-lvgl9-logos
