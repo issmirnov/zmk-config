@@ -343,4 +343,4 @@ layers:
   - {t: BACKSPACE, h: NUMBER}
   - TAB
   - RET
-  - ''
+  - '1'
