@@ -10,8 +10,8 @@ manifest:
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
     - name: zmk
-      remote: issmirnov
-      revision: fix-lvgl9-logos
+      remote: SethMilliken
+      revision: zen-display-patches
       import: app/west.yml
   self:
     path: config
