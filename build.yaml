@@ -20,5 +20,6 @@
 include:
 # Zephyr 4.1 uses new board naming with revisions
 # we have the R3 replacement PCB's now installed (v2.0.0)
-  - board: corneish_zen_left
-  - board: corneish_zen_right
+# SethMilliken's fork requires //zmk variant qualifier (default SoC, zmk variant)
+  - board: corneish_zen_left//zmk
+  - board: corneish_zen_right//zmk
