@@ -19,19 +19,34 @@
     };
 };
 
-&mt {
-    // Shorten typing term to keep up with my speed
+/ {
+    behaviors {
+        // Home row mod left: hold triggers only on right-hand keys
+        hml: home_row_mod_left {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <280>;
+            quick-tap-ms = <175>;
+            require-prior-idle-ms = <125>;
+            flavor = "balanced";
+            hold-trigger-on-release;
+            hold-trigger-key-positions = <6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 39 40 41>;
+            bindings = <&kp>, <&kp>;
+        };
 
-    tapping-term-ms = <150>;
-
-    // If retro-tap is enabled, the tap behavior is triggered 
-    // when releasing the hold-tap key if no other key was pressed in the meantime.
-
-    retro-tap;
-
-    // set hold-tap flavor to make home row mods work properly.
-
-    flavor = "tap-preferred";
+        // Home row mod right: hold triggers only on left-hand keys
+        hmr: home_row_mod_right {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <280>;
+            quick-tap-ms = <175>;
+            require-prior-idle-ms = <125>;
+            flavor = "balanced";
+            hold-trigger-on-release;
+            hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38>;
+            bindings = <&kp>, <&kp>;
+        };
+    };
 };
 
 / {
@@ -43,7 +58,7 @@
             display-name = "QWERTY";
             bindings = <
 &kp ESCAPE  &kp Q           &kp W       &kp E         &kp R        &kp T              &kp Y      &kp U        &kp I        &kp O           &kp P           &kp PRINTSCREEN
-&caps_word  &mt LEFT_GUI A  &mt LALT S  &mt LCTRL D   &mt LSHFT F  &kp G              &kp H      &mt LSHFT J  &mt LCTRL K  &mt LEFT_ALT L  &mt LCMD SLASH  &kp LG(SPACE)
+&caps_word  &hml LEFT_GUI A  &hml LALT S  &hml LCTRL D   &hml LSHFT F  &kp G              &kp H      &hmr LSHFT J  &hmr LCTRL K  &hmr LEFT_ALT L  &hmr LCMD SLASH  &kp LG(SPACE)
 &kp ESCAPE  &kp Z           &kp X       &kp C         &kp V        &kp B              &kp N      &kp M        &kp DOT      &kp COMMA       &kp QUESTION    &kp COLON
                                         &lt 5 ESCAPE  &lt 3 SPACE  &lt 1 BACKSPACE    &lt 2 TAB  &lt 4 ENTER  &lt 6 DEL
             >;
